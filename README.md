@@ -77,7 +77,7 @@ Codeline is licensed under the MIT License. See the [LICENSE](LICENSE) file for 
 
 ## Contact
 
-For any questions, issues, or suggestions, please create an issue on GitHub or contact us at [email@example.com](mailto:email@example.com).
+For any questions, issues, or suggestions, please create an issue on GitHub or contact us at [codeline.me@gmail.com](mailto:codeline.me@gmail.com).
 
 ---
 
