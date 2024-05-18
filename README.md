@@ -71,10 +71,6 @@ We welcome contributions from the community! If you are interested in contributi
 
 Please ensure that your contributions align with the project's coding standards and include appropriate tests.
 
-## License
-
-Codeline is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
 ## Contact
 
 For any questions, issues, or suggestions, please create an issue on GitHub or contact us at [codeline.me@gmail.com](mailto:codeline.me@gmail.com).
