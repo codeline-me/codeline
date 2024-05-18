@@ -1,3 +1,13 @@
+include(":app")
+include(":auth")
+include(":data")
+include(":ui")
+include(":core")
+include(":analytics")
+include(":localization")
+include(":payments")
+include(":notifications")
+
 pluginManagement {
     repositories {
         google {
@@ -20,12 +30,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Codeline"
-include(":app")
-include(":auth")
-include(":data")
-include(":ui")
-include(":core")
-include(":analytics")
-include(":localization")
-include(":payments")
-include(":notifications")
+
