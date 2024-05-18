@@ -79,6 +79,3 @@ Codeline is licensed under the MIT License. See the [LICENSE](LICENSE) file for 
 
 For any questions, issues, or suggestions, please create an issue on GitHub or contact us at [codeline.me@gmail.com](mailto:codeline.me@gmail.com).
 
----
-
-This README provides a clear overview of your project while indicating that it is still in development. It also encourages contributions from the community, which can help accelerate the development process.
