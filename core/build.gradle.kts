@@ -4,6 +4,7 @@ plugins {
 
     id("dagger.hilt.android.plugin")
     id("kotlin-kapt")
+
 }
 
 android {
@@ -41,8 +42,8 @@ dependencies {
     annotationProcessor(libs.hilt.android.compiler)
 
     // AndroidX Hilt ViewModel dependency
-    implementation(libs.androidx.hilt.lifecycle.viewmodel)
-    annotationProcessor(libs.androidx.hilt.compiler)
+    implementation(libs.hilt.android.v250)
+    kapt(libs.hilt.android.compiler.v250)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -50,4 +51,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+// Allow references to generated code
+kapt {
+    correctErrorTypes = true
 }
